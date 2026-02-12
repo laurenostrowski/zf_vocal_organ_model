@@ -128,7 +128,7 @@ fitter.plot_fit(
 - Other sampling rates will probably work fine but may introduce small numerical differences due to different integration timesteps
 
 ### Hop Length
-- The default 4ms hop length is just a recommendation, **users can use different hop lengths**
+- The default 4ms hop length is just a recommendation, users can use different hop lengths
 
 ### Pitch Fitting Hyperparameters
 The `pitch_kwargs` parameters in `get_pitch()` are **highly dependent on your specific recordings**. You may need to tune these per bird, recording quality, or dataset:
