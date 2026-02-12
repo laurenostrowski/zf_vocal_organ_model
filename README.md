@@ -44,7 +44,7 @@ The model can only produce sounds with harmonic stacks, therefore in every frame
 - Viterbi-based pitch tracking over prominent spectral peaks
 - Harmonic support detection for robust fundamental frequency estimation
 - Adaptive smoothing across continuous segments
-- **User-tunable hyperparameters** (`pitch_kwargs`) that should be adjusted per bird
+- **Tunable hyperparameters** (`pitch_kwargs`) that should be adjusted per bird
 
 ![Estimated pitch](media/spectrogram_with_pitch.png)
 *Example of a zebra finch song with estimated pitch overlaid.*
