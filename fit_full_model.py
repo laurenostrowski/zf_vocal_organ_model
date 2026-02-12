@@ -102,12 +102,12 @@ def find_spectral_peaks_prominence(y, vmask, fs, hop_length, win_length, n_fft,
 def get_pitch(y, vmask, fs, hop_length, win_length, n_fft,
               f0_min=300.0, f0_max=4000.0,
               noise_margin_db=6.0,
-              min_prominence_db=5.0,
+              min_prominence_db=5.0,  # lower if peaks are weak (default: 5.0)
               transition_weight=0.01,
-              harmonic_bonus=5.0,
+              harmonic_bonus=5.0,     # increase if harmonics are strong (default: 5.0)
               harmonic_tolerance=0.15,
               n_harmonics_check=4,
-              freq_boost_exp=1.0,
+              freq_boost_exp=1.0,     # increase to favor low freqs more (default: 1.0)
               smooth=True,
               jump_threshold_hz=500,
               smooth_window=5):
