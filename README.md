@@ -30,7 +30,7 @@ These represent the "control knobs" a bird uses to modulate pitch and amplitude 
 
 ### Hyperparameters
 
-The vocal organ hyperparameters (`sys_pars`: `gamma`, `Ch_inv`, `Lb_inv`, `Lg_inv`, `Rb`, `Rh`, vocal tract length) are **fitted to zebra finch anatomy**. While the model describes avian vocal organs generally, these specific constants make it accurate for zebra finches. Users could adapt the code for other species by re-fitting these physical parameters.
+The vocal organ hyperparameters (`sys_pars`: `gamma`, `Ch_inv`, `Lb_inv`, `Lg_inv`, `Rb`, `Rh`, vocal tract length) are **fitted to zebra finch anatomy**. Users could adapt the code for other species by re-fitting these physical parameters.
 
 ## Features
 
