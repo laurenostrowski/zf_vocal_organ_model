@@ -36,7 +36,7 @@ The vocal organ hyperparameters (`sys_pars`: `gamma`, `Ch_inv`, `Lb_inv`, `Lg_in
 
 ### 1. Pitch Estimation (`get_pitch`)
 
-The model can only produce sounds with harmonic stacks, therefore in every frame of a vocalization, a pitch must be estimated. This is defined as the lowest frequency the bird produced, even if the sound does not have clear harmonic stacks. The algorithm uses:
+The model can only produce sounds with harmonic stacks, therefore in every frame of a vocalization, a pitch must be estimated. This is defined as the lowest frequency the bird produced in a given frame, even if the sound does not have clear harmonic stacks. The algorithm uses:
 - Viterbi-based pitch tracking over prominent spectral peaks
 - Harmonic support detection for robust fundamental frequency estimation
 - Adaptive smoothing across continuous segments
