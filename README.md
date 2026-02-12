@@ -60,8 +60,6 @@ Generates audio from biomechanical parameters:
 
 ## Usage
 
-### Basic Workflow
-
 ```python
 import numpy as np
 from scipy.io import wavfile
