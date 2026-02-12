@@ -54,7 +54,6 @@ Converts song waveforms into control parameters:
 Generates audio from biomechanical parameters:
 - Supports multiple numerical integrators (Euler, Heun, RK4)
 - GPU-accelerated batch processing or CPU multiprocessing
-- Configurable for different atmospheric conditions (e.g., heliox experiments)
 
 ![Fit example](media/reconstructed_spectrogram.png)
 *Figure: Example fit showing original song, extracted α and β trajectories, and song reconstructed from biomechanical control trajectories.*
