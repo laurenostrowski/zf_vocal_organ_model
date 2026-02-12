@@ -131,7 +131,7 @@ fitter.plot_fit(
 - The default 4ms hop length is just a recommendation, users can use different hop lengths
 
 ### Pitch Fitting Hyperparameters
-The `pitch_kwargs` parameters in `get_pitch()` are **highly dependent on your specific recordings**. You may need to tune these per bird, recording quality, or dataset:
+The `pitch_kwargs` parameters in `get_pitch()` are **highly dependent on your specific recordings**. You should tune these per bird, recording quality, or dataset:
 
 - `f0_min`, `f0_max`: frequency search range
 - `noise_margin_db`: dB threshold above noise floor  
