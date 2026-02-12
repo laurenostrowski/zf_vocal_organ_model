@@ -13,6 +13,8 @@ The code implements a physics-based differential equations model of the zebra fi
 ## Model Description
 
 ### The avian vocal organ model
+![Mindlin model](media/mindlin_model_simple.png)
+*Illustration of the syrinx, terms of the model, and labial dynamics. Adapted from Gardner, T., et al. (2001). Simple motor gestures for birdsongs. Phys Rev Lett 87:208101.*
 
 This is a coupled source-filter system modeling the avian vocal organ:
 
