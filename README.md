@@ -19,7 +19,7 @@ The code implements a physics-based differential equations model of the zebra fi
 **This is a coupled source-filter system modeling the avian vocal organ:**
 
 - **Syringeal source**: A nonlinear oscillator that generates sound through coupled differential equations
-- **Vocal tract resonator**: A delay-line model simulating acoustic wave propagation through the 3.5 cm vocal tract
+- **Vocal tract resonator**: A delay-line model simulating acoustic wave propagation through the vocal tract
 
 **The model is controlled by two physiological parameters:**
 
