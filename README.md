@@ -126,7 +126,7 @@ fitter.plot_fit(
 ## Important Notes
 
 ### Sampling Rate
-- The pre-computed parameter sweep was generated at **fs = 48 kHz**
+- The pre-computed parameter sweep was generated at 48 kHz sampling rate
 - Other sampling rates will probably work fine but may introduce small numerical differences due to different integration timesteps
 
 ### Hop Length
