@@ -11,15 +11,15 @@ This repository provides tools to:
 ## Model Description
 
 ### The avian vocal organ model
-<img src="media/vocal_organ_model.png" alt="Mindlin model" width="800">
-
-*Dynamical systems model describing syringeal labial dynamics and tracheal vocal-tract filtering. The labia are modeled as a damped mass–spring system. Normal form equations for labial displacement (x(t), red) are integrated to compute input pressure at the vocal tract (Pₙᵢₙ(t), green), filtered by the oro-oesophageal cavity (OEC), yielding total output pressure (Pₒᵤₜ(t), blue). γ, time constant; r, tracheal reflection coefficient; T, tracheal propagation time; v, mean flow velocity parameter; y, velocity. Adapted from Amador, A., et al. (2013).*
-
 
 **This is a coupled source-filter system modeling the avian vocal organ:**
 
 - **Syringeal source**: A nonlinear oscillator that generates sound through coupled differential equations
 - **Vocal tract resonator**: A delay-line model simulating acoustic wave propagation through the vocal tract
+
+<img src="media/vocal_organ_model.png" alt="Mindlin model" width="800">
+
+*Dynamical systems model describing syringeal labial dynamics and tracheal vocal-tract filtering. The labia are modeled as a damped mass–spring system. Normal form equations for labial displacement (x(t), red) are integrated to compute input pressure at the vocal tract (Pₙᵢₙ(t), green), filtered by the oro-oesophageal cavity (OEC), yielding total output pressure (Pₒᵤₜ(t), blue). γ, time constant; r, tracheal reflection coefficient; T, tracheal propagation time; v, mean flow velocity parameter; y, velocity. Adapted from Amador, A., et al. (2013).*
 
 **The model is controlled by two physiological parameters:**
 
