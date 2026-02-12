@@ -10,9 +10,7 @@ This repository provides tools to:
 
 ## Model Description
 
-### The avian vocal organ model
-
-**This is a coupled source-filter system modeling the avian vocal organ:**
+### Coupled source-filter system modeling the avian vocal organ:**
 
 - **Syringeal source**: A nonlinear oscillator that generates sound through coupled differential equations
 - **Vocal tract resonator**: A delay-line model simulating acoustic wave propagation through the vocal tract
