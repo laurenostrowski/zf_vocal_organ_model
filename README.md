@@ -14,6 +14,7 @@ The code implements a physics-based differential equations model of the zebra fi
 
 ### The avian vocal organ model
 <img src="media/vocal_organ_model.png" alt="Mindlin model" width="800">
+
 *Dynamical systems model describing syringeal labial dynamics and tracheal vocal-tract filtering. The labia are modeled as a damped mass–spring system. Normal form equations for labial displacement (x(t), red) are integrated to compute input pressure at the vocal tract (Pₙᵢₙ(t), green), filtered by the oro-oesophageal cavity (OEC), yielding total output pressure (Pₒᵤₜ(t), blue). γ, time constant; r, tracheal reflection coefficient; T, tracheal propagation time; v, mean flow velocity parameter; y, velocity. Adapted from Amador, A., et al. (2013).*
 
 
@@ -32,7 +33,9 @@ These represent the "control knobs" a bird uses to modulate pitch and amplitude 
 ### Hyperparameters
 
 The vocal organ hyperparameters (`sys_pars`: `gamma`, `Ch_inv`, `Lb_inv`, `Lg_inv`, `Rb`, `Rh`, vocal tract length) are **fitted to zebra finch anatomy**. Users could adapt the code for other species by re-fitting these physical parameters.
+
 <img src="media/circuit_diagram.png" alt="Mindlin model" width="400">
+
 *The circuit is the electric analog of the filter, describing the dynamics of a Helmholtz resonator in parallel with those that represent the aperture to the atmosphere (beak). Adapted from Sanz Perl, Y., et al. (2011).*
 
 ## Features
