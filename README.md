@@ -160,9 +160,3 @@ The code includes a pre-computed lookup table mapping (α, β) → (pitch, ampli
 
 **Original vocal tract model:**
 > Mindlin, G. B., & Laje, R. (2005). The Physics of Birdsong. Springer.
-
----
-
-**Questions?** Open an issue or contact [your email/contact info]
-
-**Data requirements:** You'll need to provide your own zebra finch recordings and voicing detection. The parameter sweep file (`a_b_sweep.pkl`) should be included with this repository or generated using your own parameter space exploration.
