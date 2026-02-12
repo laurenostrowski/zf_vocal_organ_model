@@ -34,7 +34,7 @@ These represent the "control knobs" a bird uses to modulate pitch and amplitude 
 
 The vocal organ hyperparameters (`sys_pars`: `gamma`, `Ch_inv`, `Lb_inv`, `Lg_inv`, `Rb`, `Rh`, vocal tract length) are **fitted to zebra finch anatomy**. Users could adapt the code for other species by re-fitting these physical parameters.
 
-<img src="media/circuit_diagram.png" alt="Mindlin model" width="400">
+<img src="media/circuit_diagram.png" alt="Mindlin model" width="250">
 
 *The circuit is the electric analog of the filter, describing the dynamics of a Helmholtz resonator in parallel with those that represent the aperture to the atmosphere (beak). Adapted from Sanz Perl, Y., et al. (2011).*
 
