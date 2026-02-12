@@ -67,7 +67,7 @@ from scipy.io import wavfile
 # Load your song (48kHz sampling rate for best accuracy)
 fs_audio = 48000
 y, _ = wavfile.read('zebra_finch_song.wav')
-vmask = # ... your voicing detection (boolean array, same length as STFT frames)
+vmask = # ... your voicing/syllable mask (boolean array, same length as STFT frames)
 
 # Analysis parameters
 hop_length = int(0.004 * fs_audio)  # 4ms
