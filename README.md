@@ -1,6 +1,6 @@
 # Zebra finch vocal organ model fitting
 
-Fit the Mindlin model of the avian vocal organ to zebra finch songs, extract biomechanical control parameters, and synthesize vocalizations.
+Fit the Mindlin lab's model of the avian vocal organ to zebra finch songs, extract biomechanical control parameters, and synthesize vocalizations.
 
 ## Overview
 
