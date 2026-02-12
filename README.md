@@ -153,10 +153,7 @@ The code includes a pre-computed lookup table mapping (α, β) → (pitch, ampli
 ## Citations
 
 **Model and physiological parameter interpretation:**
-> Sanz Perl, Y., Mindlin, G. B., & Marcovich, N. E. (2011). Reconstruction of physiological instructions from Zebra finch song. *Physical Review E*, 84(5), 051909.
+> Sanz Perl, Y., et al. (2011). Reconstruction of physiological instructions from Zebra finch song. *Phys Rev E Stat Nonlin Soft Matter Phys*, 84:051909.
 
-**SNILC bifurcation and vocal organ dynamics:**
+**Original vocal tract model, SNILC bifurcation and vocal organ dynamics:**
 > Mindlin, G. B., & Laje, R. (2005). *The Physics of Birdsong*. Springer.
-
-**Original vocal tract model:**
-> Mindlin, G. B., & Laje, R. (2005). The Physics of Birdsong. Springer.
