@@ -13,7 +13,7 @@ The code implements a physics-based differential equations model of the zebra fi
 ## Model Description
 
 ### The avian vocal organ model
-![Mindlin model](media/vocal_organ_model.png)
+<img src="media/vocal_organ_model.png" alt="Mindlin model" width="400">
 *Dynamical systems model describing syringeal labial dynamics and tracheal vocal-tract filtering. The labia are modeled as a damped mass–spring system. Normal form equations for labial displacement (x(t), red) are integrated to compute input pressure at the vocal tract (Pₙᵢₙ(t), green), filtered by the oro-oesophageal cavity (OEC), yielding total output pressure (Pₒᵤₜ(t), blue). γ, time constant; r, tracheal reflection coefficient; T, tracheal propagation time; v, mean flow velocity parameter; y, velocity. Adapted from Amador, A., et al. (2013). Nature.*
 
 **This is a coupled source-filter system modeling the avian vocal organ:**
