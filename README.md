@@ -5,10 +5,8 @@ Fit the Mindlin lab's model of the avian vocal organ to zebra finch songs, extra
 ## Overview
 
 This repository provides tools to:
-- **Extract biomechanical parameters** from zebra finch song recordings
-- **Synthesize song** from biomechanical control trajectories  
-
-The code implements a physics-based differential equations model of the zebra finch syrinx, allowing you to convert between audio waveforms and the underlying physiological control signals.
+- **Extract biomechanical parameters** from zebra finch song recordings (audio waveforms)
+- **Synthesize songs** from biomechanical control trajectories
 
 ## Model Description
 
