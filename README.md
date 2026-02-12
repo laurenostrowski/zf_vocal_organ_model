@@ -149,9 +149,6 @@ The code includes a pre-computed lookup table mapping (α, β) → (pitch, ampli
 - **File**: `a_b_sweep.pkl`
 
 ## Citations
-
-**Model and physiological parameter interpretation:**
-> Sanz Perl, Y., et al. (2011). Reconstruction of physiological instructions from Zebra finch song. *Phys Rev E Stat Nonlin Soft Matter Phys*, 84:051909.
-
-**Original vocal tract model, SNILC bifurcation and vocal organ dynamics:**
+> Amador, A., Perl, Y., Mindlin, G. et al. (2013). Elemental gesture dynamics are encoded by song premotor cortical neurons. *Nature* 495, 59–64.
+> Sanz Perl, Y., et al. (2011). Reconstruction of physiological instructions from Zebra finch song. *Phys Rev E Stat Nonlin Soft Matter Phys* 84, 051909.
 > Mindlin, G. B., & Laje, R. (2005). *The Physics of Birdsong*. Springer.
