@@ -147,7 +147,7 @@ The `pitch_kwargs` parameters in `get_pitch()` are **highly dependent on your sp
 The code includes a pre-computed lookup table mapping (α, β) → (pitch, amplitude):
 - **Grid**: 500 × 500 points covering the physiologically valid parameter space
 - **Pitch range**: Spans the zebra finch vocal range
-- **SNILC cusp**: β is constrained below the Saddle-Node on Invariant Limit Cycle bifurcation boundary
+- **SNILC cusp**: β is constrained below the saddle node in a limit cycle (SNILC) bifurcation boundary
 - **File**: `a_b_sweep.pkl`
 
 ## Citations
